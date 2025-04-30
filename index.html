@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>にじいろストア</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.png">
+    <!--フォント-->
+    <!--スライドショー-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000, // 画像がスライドするスピード
+                    slideWidth: 1000, // 画像の横幅
+                });
+            });
+    </script>
+</head>
+
+<body>
+    <header>
+       <div class="fuwafuwa"><a href="index.html"><img src="images/concon.png"></a></div>
+    </header>
+    <nav class="nav_">
+        <ul>
+            <li><a href="#osirase.html">お知らせ</a></li>
+            <li><a href="#shouhin.html">サービス案内</a></li>
+            <li><a href="#form.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <div class="slider-wrapper">
+        <div class="slider">
+          <img src="images/shop.png" alt="01">
+          <img src="images/con.jpg" alt="02">
+          <img src="images/coffe.jpg" alt="03">
+          <img src="images/tennnai.jpg" alt="04">
+        </div>
+      </div>
+
+<div id="main">
+    <h3 class="nav_mo"><a name=osirase.html></a>&#x1f9f8;お知らせ 新商品発売</h3>
+        <!-- テーブル -->
+        <div id="main_01">
+            <table class="shouhin_new">
+                <tr>
+                    <td class="tb_pic" class="tb_mo">モルベリオンパイ<br><img class="food1" src="images/food_moru01.png"></td>
+                    <td class="tb_pic" class="tb_mo">ふわとろ雲ミルクパン<br><img class="food1" src="images/pan.png"></td>
+                    <td class="tb_pic" class="tb_mo">春の彩り三色弁当<br><img class="food1" src="images/food02.png"></td>
+                    <td class="tb_pic" class="tb_mo">さくらもちゼリー<br><img class="food1" src="images/food.png"></td>
+                </tr>
+                <tr>
+                    <td class="tb_pic" class="tb_mo">ふわもちドーナツボール<br><img class="food1" src="images/do-natu.png"></td>
+                    <td class="tb_pic" class="tb_mo">春ぽて。さくら塩味<br><img class="food1" src="images/potato.png"></td>
+                    <td class="tb_pic" class="tb_mo">はるかぜメロンパン（さくら味）<br><img class="food1" src="images/meron.png"></td>
+                    <td class="tb_pic" class="tb_mo">もも花ミルクブレッド<br><img class="food1" src="images/momopan.png"></td>
+                </tr>
+            </table>                
+        </div>
+
+    <h3 class="nav_mo"><a name=shouhin.html></a>&#x1f9f8;サービス案内</h3>
+    <div id="servies_01">
+        <h2 class="h2_tenntou">店頭サービス&#x1f3ea;</h2>
+        <h3 class="serv">コピー・プリント・FAXサービス&#x1F5A8;</h3>
+        <p>店内マルチコピー機で以下が利用できます。
+            <br>白黒・カラーコピー
+            <br>スマホからのプリント（PDF・写真）
+            <br>FAX送受信（国内のみ/24時間対応）
+        </p>
+        <h3 class="serv">宅配・荷物受け取りサービス&#x1f4e6;</h3>
+        <p>宅配便の受付（〇〇〇・△△△などの提携業者）
+            <br>メルカリの配送用の著名配送にも対応
+            <br>店舗受け取りサービス（ネット注文品を店頭で受け取れます）
+            <br>ロッカー受け取りサービス（PUDO・Amazon Hubなど）
+        </p>
+        <h3 class="serv">公共料金・各種支払い&#x1F4C4;</h3>
+        <p>電気・ガス・水道料金の支払い
+            <br>税金や保険料（国民年金など）の支払い
+            <br>通販代金（コンビニ払い）
+            <br>スマホ決済（PayPay・Line Payなど）
+        </p>
+        <h3 class="serv">チケットサービス&#x1F39F;&#xFE0F;</h3>
+        <p>ライブ・映画・スポーツ艦船などのチケット販売
+            <br>高速バスやフェリーの乗車券予約
+            <br>レジャー施設の割引券・入場券も取り扱い中
+        </p>
+        <h2 class="h2_tenntou">にじいろストア独自サービス&#x1f3ea;</h2>
+         <p class="niji">にじいろカフェ</p>
+        <p>挽きたてコーヒーやフレッシュジュースが楽しめるセルフカフェコーナーを一部店舗で展開中！</p>
+        <p>&#x1F388;クラシックコーヒー（ホット／アイス）
+            <br>産地直送の高品質な豆を使用。シンプルで美味しいブラックコーヒー。
+        </p>
+        <p>&#x1F388;カフェラテ（ホット／アイス）
+            <br>濃厚なエスプレッソに、ふわふわなミルクを加えたカフェラテ。オプションでアーモンドミルクや豆乳も可。
+        </p>
+        <p>&#x1F388;抹茶ラテ
+            <br>抹茶好きにはたまらない！特製の抹茶パウダーとミルクを組み合わせた和風ラテ。
+        </p>
+        <p>&#x1F388;アイスブレンドティー
+            <br>フルーツやハーブを加えたアイスティー。夏にぴったり。
+        </p>
+
+        <p class="niji">にじいろポイントカード</p>
+        <p>お買い物でポイントが貯まり、１ポイント＝１円でご利用できます。</p>
+        <p>&#x1F388;虹の色にちなんだ特典
+            <br>赤のポイント：ドリンク1杯無料
+            <br>橙のポイント：スイーツ10%オフ
+            <br>黄のポイント：サンドイッチ・軽食無料
+            <br>緑のポイント：新メニュー試食権
+            <br>青のポイント：ラテアート体験ワークショップへの招待
+            <br>紫のポイント：スペシャルドリンクの割引
+            <br>虹色達成ポイント（すべての色を集めた場合）：特別なシーズンメニューのプレゼント
+        </p>
+        <p>
+            &#x1F388;購入特典<br>
+            お買い物1000円ごとにポイント1ポイント<br>
+            1000円の購入で虹のポイントカードに1ポイント貯まります。ポイントを貯めるほど、色が変わり、特典が増えていきます。<br><br>
+            &#x1F388;スペシャルプロモーション<br>
+            「虹色チャレンジ」：1ヶ月間にすべての色のポイントを集めると、特別なドリンクやスイーツ、イベントの招待がもらえる。<br>
+            「にじいろキャンペーン」：毎月、虹色のうち1色がテーマになり、その色に関連した特典を強化<br>（今月は「青のポイント」を集めると、アイスブレンドティーが半額になるなど）。<br><br>
+            &#x1F388;ポイント交換・ギフト<br>
+            ポイントギフトシステム：ポイントを他の人にプレゼントすることもできるようにして、友達や家族に感謝の気持ちを表す手段として使える。<br>
+            特別なギフトアイテム：たまったポイントを特製マグカップやオリジナルエコバッグなど、虹色のグッズに交換できる。<br>
+        </p>
+
+        <p class="niji">店舗の雰囲気</p>
+        <p>&#x1F388;モダン＆カジュアルなデザイン
+            <br>内装はシンプルで洗練されたデザイン。木材を使ったテーブルや椅子で、温かみのある雰囲気を作り出します。<br>大きな窓から自然光が差し込み、リラックスできる空間。
+        </p>
+        <p>&#x1F388;無料Wi-Fi & 電源
+            <br>店内で無料Wi-Fiと電源を提供して、仕事や勉強をしながらカフェを楽しむことができます。<br>フリーランスや学生、ビジネスマンが気軽に利用できる環境。
+        </p>
+        <p>&#x1F388;カウンター席とソファ席
+            <br>ひとりでサクッとカフェを楽しみたい人向けにカウンター席、友達やグループでゆっくり過ごしたい人向けにソファ席も用意。
+        </p>
+
+    </div>
+
+    <h3 class="nav_mo"><a name=form.html></a>&#x1f9f8;お問い合わせ</h3>
+    <section class="contact-section">
+        <h2>お問い合わせ</h2>
+        <p>当ホームページをご利用いただきありがとうございます！<br>商品に関するご質問についてのお問い合わせは、こちらからご連絡いただけます。</p>
+        <p>商品についての詳細情報、質問などお気軽にお尋ねください。お客様にご満足いただけるよう、精一杯対応させていただきます。</p>
+        <p>ご質問内容によっては、少々お時間をいただくことがありますので、あらかじめご了承ください。</p>
+    
+        <form class="contact-form" action="submit_form.php" method="POST">
+            <input type="text" name="name" id="name" placeholder="お名前" required>
+            <input type="email" name="email" id="email" placeholder="メールアドレス" required>
+            
+            <!-- 質問内容フィールド -->
+            <select name="question_type" id="question_type" required>
+                <option value="" disabled selected>質問の種類を選んでください</option>
+                <option value="product_inquiry">商品に関する質問</option>
+                <option value="order_inquiry">注文に関する質問</option>
+                <option value="general_inquiry">一般的な質問</option>
+            </select>
+            
+            <textarea name="message" id="message" placeholder="ご質問やご意見をお聞かせください" required></textarea>
+            
+            <button type="submit" disabled style="opacity: 0.5; cursor:not-allowed;">送信する</button>
+            
+            <!-- エラーメッセージ（CSSで制御） -->
+            <div class="error-message">すべての項目を正しく入力してください。</div>
+        </form>
+    </section>
+</div>
+    <p id="foo_top"><a href="index.html"><img class="yellow" src="images/ue_yajirusi.png"></a></p>
+
+    <footer>
+        <p>店舗　宇都宮店〇〇町</p>
+        <p>にじいろストア&nbsp;<small>CONBINI</small></p>
+        <small id="TEL">TEL 028-XXX-YYYY<br>〒322-XXXX &nbsp;&nbsp; 栃木県宇都宮市〇〇町2-2-1</small>
+        <p><small>Copyright &copy; 2025 Tochigi conbini reopening.</small></p>
+    </footer>
+
+</body>
+</html>
